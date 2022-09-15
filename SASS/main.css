@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+header .div__logo a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 3px;
+  margin: 3px;
+}
+header .div__menu ul li {
+  list-style: none;
+  border: 1px solid black;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+  padding: 0.2rem;
+}
+header .div__menu ul li a {
+  text-decoration: none;
+  gap: 1rem;
+  color: white;
+}
+
+.main {
+  height: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .div__main {
+  background-color: lightblue;
+  height: auto;
+}
+.main .div__main h1 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.main .div__main p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section h4 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.section .div__section img {
+  height: 30rem;
+  border: 1px solid black;
+  border-radius: 3rem;
+  padding: 1rem;
+  background-color: lightblue;
+}
+.section .div__section p {
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.footer {
+  height: 5rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem;
+  border: 5px solid lightblue;
+}
+.footer .div__footer {
+  color: white;
+  font-size: 1rem;
+}
+.footer .div__menuf ul li a {
+  color: white;
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
