@@ -94,4 +94,31 @@ header .div__menu ul li a {
 .footer .div__menuf ul li a {
   color: white;
   text-decoration: none;
+}
+
+.section__box {
+  background-color: lightblue;
+}
+.section__box .box {
+  margin: 10px;
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.div__parrafo {
+  background-color: black;
+}
+.div__parrafo .parrafo {
+  margin: 2px;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
